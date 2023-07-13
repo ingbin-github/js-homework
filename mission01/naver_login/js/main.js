@@ -3,20 +3,21 @@ const user = {
   pw: 'spdlqj123!@',
 };
 
-document.querySelector('input.user-password-input').onclick =
-  function enterId() {
-    const inputId = document.querySelector('input.user-email-input');
-    if (!emailReg(inputId.value)) {
-      inputId.classList.add('is--invalid');
-    } else if (inputId.value !== user.id) {
-      alert('아이디가 일치하지 않습니다.');
-    } else {
-      inputId.classList.remove('is--invalid');
-    }
-  };
+const inputId = document.querySelector('#userEmail');
+const inputPw = document.querySelector('#userPassword');
+const clickButton = document.querySelector('.btn-login');
 
-document.querySelector('button.btn-login').onclick = function enterPw() {
-  const inputPw = document.querySelector('input.user-password-input');
+inputPw.onclick = function enterId() {
+  if (!emailReg(inputId.value)) {
+    inputId.classList.add('is--invalid');
+  } else if (inputId.value !== user.id) {
+    alert('아이디가 일치하지 않습니다.');
+  } else {
+    inputId.classList.remove('is--invalid');
+  }
+};
+
+clickButton.onclick = function enterPw() {
   if (!pwReg(inputPw.value)) {
     inputPw.classList.add('is--invalid');
   } else if (inputPw.value !== user.pw) {
@@ -24,6 +25,11 @@ document.querySelector('button.btn-login').onclick = function enterPw() {
   } else {
     inputPw.classList.remove('is--invalid');
     window.location.href = 'welcome.html';
+  }
+};
+
+clickButton.onkeyup = function enterkeyButton() {
+  if (window.event.keyCode == 13) {
   }
 };
 
