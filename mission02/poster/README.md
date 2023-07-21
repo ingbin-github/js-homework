@@ -11,8 +11,8 @@
 ## 주제
 
 썸네일 이미지를 클릭하면 메인 이미지와 배경이 바뀔 수 있도록 코드 로직을 작성합니다.
-[index.html 바로가기](https://github.com/ingbin-github/js-homework/blob/main/mission02/poster/client/index.html)
-[main.js 바로가기](https://github.com/ingbin-github/js-homework/blob/main/mission02/poster/client/js/main.js)
+- [index.html 바로가기](https://github.com/ingbin-github/js-homework/blob/main/mission02/poster/client/index.html)
+- [main.js 바로가기](https://github.com/ingbin-github/js-homework/blob/main/mission02/poster/client/js/main.js)
 
 ## 목표
 
