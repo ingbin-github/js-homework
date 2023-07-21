@@ -2,7 +2,9 @@
 
 ## 결과
 
-<img src="/Users/ingbin/like-lion/js-homework/mission02/poster/client/assets/result/mission02_Elemental Movie Poster.gif" width="50%"/>
+[영상 바로가기](./client/assets/result/mission02_Elemental%20Movie%20Poster.mov)
+
+※ 영상 재생 시 소리가 포함되어 있으므로 시청 시 참고해 주시기 바랍니다.
 
 ## 활용
 
