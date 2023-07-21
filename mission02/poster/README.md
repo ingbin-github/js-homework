@@ -2,9 +2,7 @@
 
 ## 결과
 
-[영상 바로가기](https://github.com/ingbin-github/js-homework/blob/main/mission02/poster/client/assets/result/mission02_Elemental%20Movie%20Poster.gif)
-
-※ 영상 재생 시 소리가 포함되어 있으므로 시청 시 참고해 주시기 바랍니다.
+![mission02_Elemental Movie Poster](https://github.com/ingbin-github/js-homework/assets/128195013/89509fde-b254-444e-b739-123b705687c6)
 
 ## 활용
 
